@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0894858320841FCB00C46EC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0894858220841FCB00C46EC6 /* AppDelegate.swift */; };
+		0894858520841FCB00C46EC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0894858420841FCB00C46EC6 /* ViewController.swift */; };
+		0894858820841FCB00C46EC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0894858620841FCB00C46EC6 /* Main.storyboard */; };
+		0894858A20841FCC00C46EC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0894858920841FCC00C46EC6 /* Assets.xcassets */; };
+		0894858D20841FCD00C46EC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0894858B20841FCD00C46EC6 /* LaunchScreen.storyboard */; };
+		0894859820841FCD00C46EC6 /* Ikea_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0894859720841FCD00C46EC6 /* Ikea_AppTests.swift */; };
+		089485A320841FCD00C46EC6 /* Ikea_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089485A220841FCD00C46EC6 /* Ikea_AppUITests.swift */; };
+		089485B12084481A00C46EC6 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 089485B02084481A00C46EC6 /* itemCell.swift */; };
+		089485C82084537F00C46EC6 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 089485C72084537F00C46EC6 /* Models.scnassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0894859420841FCD00C46EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0894857720841FCB00C46EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0894857E20841FCB00C46EC6;
+			remoteInfo = "Ikea App";
+		};
+		0894859F20841FCD00C46EC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0894857720841FCB00C46EC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0894857E20841FCB00C46EC6;
+			remoteInfo = "Ikea App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0894857F20841FCB00C46EC6 /* Ikea App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ikea App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0894858220841FCB00C46EC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0894858420841FCB00C46EC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0894858720841FCB00C46EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0894858920841FCC00C46EC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0894858C20841FCD00C46EC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0894858E20841FCD00C46EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0894859320841FCD00C46EC6 /* Ikea AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ikea AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0894859720841FCD00C46EC6 /* Ikea_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ikea_AppTests.swift; sourceTree = "<group>"; };
+		0894859920841FCD00C46EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0894859E20841FCD00C46EC6 /* Ikea AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ikea AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		089485A220841FCD00C46EC6 /* Ikea_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ikea_AppUITests.swift; sourceTree = "<group>"; };
+		089485A420841FCD00C46EC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		089485B02084481A00C46EC6 /* itemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
+		089485C72084537F00C46EC6 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0894857C20841FCB00C46EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894859020841FCD00C46EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894859B20841FCD00C46EC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0894857620841FCA00C46EC6 = {
+			isa = PBXGroup;
+			children = (
+				0894858120841FCB00C46EC6 /* Ikea App */,
+				0894859620841FCD00C46EC6 /* Ikea AppTests */,
+				089485A120841FCD00C46EC6 /* Ikea AppUITests */,
+				0894858020841FCB00C46EC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0894858020841FCB00C46EC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0894857F20841FCB00C46EC6 /* Ikea App.app */,
+				0894859320841FCD00C46EC6 /* Ikea AppTests.xctest */,
+				0894859E20841FCD00C46EC6 /* Ikea AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0894858120841FCB00C46EC6 /* Ikea App */ = {
+			isa = PBXGroup;
+			children = (
+				089485C72084537F00C46EC6 /* Models.scnassets */,
+				0894858220841FCB00C46EC6 /* AppDelegate.swift */,
+				0894858420841FCB00C46EC6 /* ViewController.swift */,
+				0894858620841FCB00C46EC6 /* Main.storyboard */,
+				0894858920841FCC00C46EC6 /* Assets.xcassets */,
+				0894858B20841FCD00C46EC6 /* LaunchScreen.storyboard */,
+				0894858E20841FCD00C46EC6 /* Info.plist */,
+				089485B02084481A00C46EC6 /* itemCell.swift */,
+			);
+			path = "Ikea App";
+			sourceTree = "<group>";
+		};
+		0894859620841FCD00C46EC6 /* Ikea AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0894859720841FCD00C46EC6 /* Ikea_AppTests.swift */,
+				0894859920841FCD00C46EC6 /* Info.plist */,
+			);
+			path = "Ikea AppTests";
+			sourceTree = "<group>";
+		};
+		089485A120841FCD00C46EC6 /* Ikea AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				089485A220841FCD00C46EC6 /* Ikea_AppUITests.swift */,
+				089485A420841FCD00C46EC6 /* Info.plist */,
+			);
+			path = "Ikea AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0894857E20841FCB00C46EC6 /* Ikea App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089485A720841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea App" */;
+			buildPhases = (
+				0894857B20841FCB00C46EC6 /* Sources */,
+				0894857C20841FCB00C46EC6 /* Frameworks */,
+				0894857D20841FCB00C46EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ikea App";
+			productName = "Ikea App";
+			productReference = 0894857F20841FCB00C46EC6 /* Ikea App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0894859220841FCD00C46EC6 /* Ikea AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089485AA20841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea AppTests" */;
+			buildPhases = (
+				0894858F20841FCD00C46EC6 /* Sources */,
+				0894859020841FCD00C46EC6 /* Frameworks */,
+				0894859120841FCD00C46EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0894859520841FCD00C46EC6 /* PBXTargetDependency */,
+			);
+			name = "Ikea AppTests";
+			productName = "Ikea AppTests";
+			productReference = 0894859320841FCD00C46EC6 /* Ikea AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0894859D20841FCD00C46EC6 /* Ikea AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 089485AD20841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea AppUITests" */;
+			buildPhases = (
+				0894859A20841FCD00C46EC6 /* Sources */,
+				0894859B20841FCD00C46EC6 /* Frameworks */,
+				0894859C20841FCD00C46EC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				089485A020841FCD00C46EC6 /* PBXTargetDependency */,
+			);
+			name = "Ikea AppUITests";
+			productName = "Ikea AppUITests";
+			productReference = 0894859E20841FCD00C46EC6 /* Ikea AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0894857720841FCB00C46EC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Zaynah Bhanji";
+				TargetAttributes = {
+					0894857E20841FCB00C46EC6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					0894859220841FCD00C46EC6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0894857E20841FCB00C46EC6;
+					};
+					0894859D20841FCD00C46EC6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 0894857E20841FCB00C46EC6;
+					};
+				};
+			};
+			buildConfigurationList = 0894857A20841FCB00C46EC6 /* Build configuration list for PBXProject "Ikea App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0894857620841FCA00C46EC6;
+			productRefGroup = 0894858020841FCB00C46EC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0894857E20841FCB00C46EC6 /* Ikea App */,
+				0894859220841FCD00C46EC6 /* Ikea AppTests */,
+				0894859D20841FCD00C46EC6 /* Ikea AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0894857D20841FCB00C46EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0894858D20841FCD00C46EC6 /* LaunchScreen.storyboard in Resources */,
+				0894858A20841FCC00C46EC6 /* Assets.xcassets in Resources */,
+				089485C82084537F00C46EC6 /* Models.scnassets in Resources */,
+				0894858820841FCB00C46EC6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894859120841FCD00C46EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894859C20841FCD00C46EC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0894857B20841FCB00C46EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0894858520841FCB00C46EC6 /* ViewController.swift in Sources */,
+				089485B12084481A00C46EC6 /* itemCell.swift in Sources */,
+				0894858320841FCB00C46EC6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894858F20841FCD00C46EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0894859820841FCD00C46EC6 /* Ikea_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0894859A20841FCD00C46EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				089485A320841FCD00C46EC6 /* Ikea_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0894859520841FCD00C46EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0894857E20841FCB00C46EC6 /* Ikea App */;
+			targetProxy = 0894859420841FCD00C46EC6 /* PBXContainerItemProxy */;
+		};
+		089485A020841FCD00C46EC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0894857E20841FCB00C46EC6 /* Ikea App */;
+			targetProxy = 0894859F20841FCD00C46EC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0894858620841FCB00C46EC6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0894858720841FCB00C46EC6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0894858B20841FCD00C46EC6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0894858C20841FCD00C46EC6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		089485A520841FCD00C46EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		089485A620841FCD00C46EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		089485A820841FCD00C46EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		089485A920841FCD00C46EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		089485AB20841FCD00C46EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikea App.app/Ikea App";
+			};
+			name = Debug;
+		};
+		089485AC20841FCD00C46EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ikea App.app/Ikea App";
+			};
+			name = Release;
+		};
+		089485AE20841FCD00C46EC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ikea App";
+			};
+			name = Debug;
+		};
+		089485AF20841FCD00C46EC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3U567S85FC;
+				INFOPLIST_FILE = "Ikea AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zaynah-Bhanji.Ikea-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ikea App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0894857A20841FCB00C46EC6 /* Build configuration list for PBXProject "Ikea App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089485A520841FCD00C46EC6 /* Debug */,
+				089485A620841FCD00C46EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089485A720841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089485A820841FCD00C46EC6 /* Debug */,
+				089485A920841FCD00C46EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089485AA20841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089485AB20841FCD00C46EC6 /* Debug */,
+				089485AC20841FCD00C46EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		089485AD20841FCD00C46EC6 /* Build configuration list for PBXNativeTarget "Ikea AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				089485AE20841FCD00C46EC6 /* Debug */,
+				089485AF20841FCD00C46EC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0894857720841FCB00C46EC6 /* Project object */;
+}
